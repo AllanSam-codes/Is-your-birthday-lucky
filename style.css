@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+:root {
+    --primary-color: #581c87;
+    --secondary-color: #f8f8ff;
+}
+
+body {
+    background-color: #581c87;
+    color: var(--secondary-color);
+    font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 3rem;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+label {
+    display: block;
+    padding: 0.5rem;
+    margin: auto;
+    font-family: 'Mulish', sans-serif;
+    font-size: x-large;
+}
+
+
+/*#date-of-birth {*/
+
+input {
+    margin-bottom: 0.5rem;
+    width: 60%;
+}
