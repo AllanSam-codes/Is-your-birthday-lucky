@@ -7,9 +7,9 @@ const outputBox = document.querySelector("#output-box")
 function compareValues(sum, luckyNumber) {
     //console.log(sum, luckyNumber)
     if (sum % luckyNumber === 0) {
-        outputBox.innerText = "your birthday is lucky 🤩"
+        outputBox.innerText = "Your Birthday is Lucky 🤩"
     } else {
-        outputBox.innerText = "your birthday is not lucky😢"
+        outputBox.innerText = "Your Birthday is not Lucky 😢"
     }
 }
 
@@ -19,7 +19,7 @@ function checkBirthDateIsLucky() {
     if (sum && dob) {
         compareValues(sum, luckyNumber.value);
     } else {
-        outputBox.innerText = "please enter both the fields 😮"
+        outputBox.innerText = "Please enter both the fields 😮"
     }
 }
 

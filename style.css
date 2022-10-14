@@ -30,10 +30,18 @@ label {
     font-size: x-large;
 }
 
-
-/*#date-of-birth {*/
-
 input {
     margin-bottom: 0.5rem;
     width: 60%;
+}
+
+#check-number {
+    width: 8rem;
+    height: 6vh;
+    padding: 0.5rem;
+    margin: auto;
+    border: 1px solid gainsboro;
+    background-color: var(--primary-color);
+    color: #f8f8ff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
