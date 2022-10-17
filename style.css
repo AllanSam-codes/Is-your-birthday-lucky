@@ -42,6 +42,7 @@ input {
     height: 6vh;
     padding: 0.5rem;
     margin: auto;
+    cursor: pointer;
     border: 1px solid gainsboro;
     background-color: #f8f8ff;
     color: var(--primary-color);
